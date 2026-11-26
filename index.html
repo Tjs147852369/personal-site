@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>田津硕 · AI 应用 / 产品运营方向求职</title>
+<meta name="description" content="田津硕，医学专业出身，聚焦 AI 应用、Vibe Coding 与产品运营。借助 AI 独立完成多个从真实场景出发的小工具，正在求职。">
+<meta name="theme-color" content="#1f3df0">
+
+<!-- 站点图标：内联 SVG -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231f3df0'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23ffffff'/%3E%3Cpath d='M9.8 11.4 5.6 8.8l1.1 6.1-1.3 5.7 4.4-2.2M22.2 11.4l4.2-2.6-1.1 6.1 1.3 5.7-4.4-2.2' fill='none' stroke='%23ffffff' stroke-width='1.6' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E">
+
+<!-- 分享预览。TODO: 之后补一张 1200×630 的分享图，取消下面 og:image 的注释 -->
+<meta property="og:title" content="田津硕 · AI 应用 / 产品运营方向求职">
+<meta property="og:description" content="田津硕，医学专业出身，聚焦 AI 应用、Vibe Coding 与产品运营。借助 AI 独立完成多个从真实场景出发的小工具，正在求职。">
+<meta property="og:type" content="website">
+<!-- <meta property="og:image" content="https://你的域名/share.png"> -->
+<meta name="twitter:card" content="summary">
+
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+<!-- 标题衬线：Playfair Display -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/playfair-display@5.0.0/700.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/playfair-display@5.0.0/700-italic.css">
+
+<!-- 中文衬线标题：Noto Serif SC -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5.0.0/700.css">
+
+<!-- 手写感只用在两处：交班单内容、关于我里的那一段 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css">
+
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<a class="skip" href="#works">跳到作品</a>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="#cover">田津硕</a>
+    <nav class="nav__links" aria-label="章节导航">
+      <a href="#cover" data-nav="cover">封面</a>
+      <a href="#about" data-nav="about">关于</a>
+      <a href="#strengths" data-nav="strengths">能力</a>
+      <a href="#works" data-nav="works">作品</a>
+      <a href="#skills" data-nav="skills">技能</a>
+      <a href="#contact" data-nav="contact">联系</a>
+    </nav>
+    <a class="nav__cta" href="#contact">联系我</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- 01 封面 -->
+  <section id="cover" class="section section--cover">
+    <span class="blob blob--a" aria-hidden="true"></span>
+    <span class="blob blob--b" aria-hidden="true"></span>
+    <span class="blob blob--c" aria-hidden="true"></span>
+    <div class="wrap">
+
+      <div class="hero__top">
+        <p class="eyebrow" data-reveal>AI APPLICATION · VIBE CODING · PRODUCT OPS</p>
+        <p class="hero__meta" data-reveal>2026 届 · 求职中 · 共 <span id="project-count">4</span> 则案例</p>
+      </div>
+
+      <div class="hero">
+        <div class="hero__main">
+          <h1 class="hero__title" data-reveal>
+            Real problems,<br>
+            small tools<br>
+            <em>that <span class="mark">work.</span></em>
+          </h1>
+
+          <p class="hero__lead" data-reveal>医学专业出身，聚焦 AI 应用、Vibe Coding 与产品运营。借助 AI 独立完成医学生复盘工具、护理交班助手、EDITH 桌面助手等项目，每一个都从真实场景里的具体问题出发。正在寻找相关方向的入门岗位。</p>
+
+          <div class="hero__actions" data-reveal>
+            <a class="btn" href="#works">↓ 查看作品</a>
+            <a class="btn btn--line" href="#contact">联系我</a>
+            <a class="btn btn--line" href="https://github.com/Tjs147852369" target="_blank" rel="noopener">GITHUB</a>
+          </div>
+        </div>
+
+        <!-- 封面插图：梵高《星空》 -->
+        <figure class="plate" data-reveal>
+          <div class="plate__frame">
+            <img class="plate__img" src="images/starry-night.jpg" alt="梵高《星空》（1889）"
+                 width="1919" height="1199" loading="eager"
+                 onerror="this.style.display='none'">
+          </div>
+        </figure>
+      </div>
+
+      <!-- 终端窗口：内容只写真实信息 -->
+      <div class="terminal glass-on-blue" data-reveal aria-hidden="false">
+        <div class="terminal__bar">
+          <span class="terminal__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="terminal__title">tianjinshuo@notes — zsh</span>
+        </div>
+        <div class="terminal__body">
+          <p class="terminal__cmd"><span class="terminal__prompt">→</span>whoami</p>
+          <p class="terminal__out">田津硕 — 医学出身 / AI 应用 / Vibe Coding / 产品运营</p>
+          <p class="terminal__cmd"><span class="terminal__prompt">→</span>ls ~/projects</p>
+          <p class="terminal__out" data-projects-dirs></p>
+          <p class="terminal__cmd"><span class="terminal__prompt">→</span>cat status</p>
+          <p class="terminal__out">求职中</p>
+          <p class="terminal__cmd"><span class="terminal__prompt">→</span><span class="terminal__cursor" aria-hidden="true">_</span></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 02 关于我 -->
+  <section id="about" class="section">
+    <div class="wrap">
+      <header class="chapter" data-reveal>
+        <p class="chapter__kicker"><span class="chapter__no">02</span> — ABOUT ME</p>
+        <h2 class="chapter__title">关于我</h2>
+      </header>
+
+      <div class="note" data-reveal>
+        <p>我叫田津硕，网名爱吃糖，医学专业出身。上学和实习那段时间，我记住的不是什么大道理，而是那些被纸和流程绊住的小事：写不全的一页交班、翻不回去的那条记录、散在好几个地方的一份信息。</p>
+        <p>后来我接触了前端，想法很朴素——这些事本来可以做得更顺手一点。我没系统学过计算机，是从 HTML 和 CSS 一点点摸起来的；卡住的时候，就拉着 AI 把问题拆开，先做出一个能点开的东西，再慢慢改到能用。</p>
+        <p class="note__hand">所以我做的东西都很小，也都很具体。它们不完美，但确实是我自己需要、也真在用的。这个网站就是我的记录：一边学，一边做。</p>
+        <p class="note__sign">—— 写于一个安静的晚上</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 我能带来什么 -->
+  <section id="strengths" class="section">
+    <span class="blob blob--d" aria-hidden="true"></span>
+    <span class="blob blob--e" aria-hidden="true"></span>
+    <div class="wrap">
+      <header class="chapter" data-reveal>
+        <p class="chapter__kicker"><span class="chapter__no">03</span> — WHAT I BRING</p>
+        <h2 class="chapter__title">我能带来什么</h2>
+        <p class="chapter__note">不只是会做页面，下面这几件事，是我每个项目里都在做的。</p>
+      </header>
+
+      <ul class="strengths" data-reveal>
+        <li class="strength glass-on-light">
+          <span class="strength__no" aria-hidden="true">01</span>
+          <h3 class="strength__title">从具体问题出发</h3>
+          <p class="strength__text">我做东西不先想功能，先问：谁在用、卡在哪一步。做过的几个小工具，都是从一个具体的麻烦开始的，再决定它该插在流程的哪一步。</p>
+        </li>
+        <li class="strength glass-on-light">
+          <span class="strength__no" aria-hidden="true">02</span>
+          <h3 class="strength__title">上线前自己过一遍</h3>
+          <p class="strength__text">链接能不能点开、手机上会不会挤、涉及隐私的地方有没有写清边界，这些我都会自己试一遍再放出去。比如交班助手，我会在页面上明确写出不存储任何真实信息。</p>
+        </li>
+        <li class="strength glass-on-light">
+          <span class="strength__no" aria-hidden="true">03</span>
+          <h3 class="strength__title">先听懂，再动手</h3>
+          <p class="strength__text">需求不清楚的时候，我会先多问一句，弄明白对方真正急的是什么，再想怎么做。实习时每天要和不同的人打交道，这个习惯是在那里练出来的。</p>
+        </li>
+        <li class="strength glass-on-light">
+          <span class="strength__no" aria-hidden="true">04</span>
+          <h3 class="strength__title">会用 AI 把想法做出来</h3>
+          <p class="strength__text">我不太会把代码从头写到尾，但我知道怎么把一个大想法拆成小步骤，让 AI 写出第一版，再自己改到能用、能放到网上。</p>
+        </li>
+        <li class="strength glass-on-light">
+          <span class="strength__no" aria-hidden="true">05</span>
+          <h3 class="strength__title">会复盘</h3>
+          <p class="strength__text">每做完一个项目，我都会写清楚当时的问题、我怎么做的、后来想明白了什么。这个网站本身，就是我复盘的习惯。</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 04 作品 -->
+  <section id="works" class="section">
+    <span class="blob blob--d" aria-hidden="true"></span>
+    <span class="blob blob--e" aria-hidden="true"></span>
+    <div class="wrap">
+      <header class="chapter" data-reveal>
+        <p class="chapter__kicker"><span class="chapter__no">04</span> — CASE NOTES</p>
+        <h2 class="chapter__title">作品</h2>
+        <p class="chapter__note" id="works-note"></p>
+      </header>
+
+      <div class="works" id="works-list">
+        <!-- 由 script.js 根据 projects 数组渲染 -->
+      </div>
+
+      <div class="notes" id="notes" data-reveal hidden>
+        <!-- 由 script.js 根据 notes 数组渲染；全部没有链接时不显示 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 技能 -->
+  <section id="skills" class="section">
+    <span class="blob blob--d" aria-hidden="true"></span>
+    <span class="blob blob--e" aria-hidden="true"></span>
+    <div class="wrap">
+      <header class="chapter" data-reveal>
+        <p class="chapter__kicker"><span class="chapter__no">05</span> — SKILLS</p>
+        <h2 class="chapter__title">我做得出来的</h2>
+      </header>
+
+      <div class="skills" id="skills-list" data-reveal></div>
+    </div>
+  </section>
+
+  <!-- 06 联系 -->
+  <section id="contact" class="section">
+    <span class="blob blob--a" aria-hidden="true"></span>
+    <span class="blob blob--b" aria-hidden="true"></span>
+    <span class="blob blob--c" aria-hidden="true"></span>
+    <div class="wrap wrap--center">
+      <p class="chapter__kicker chapter__kicker--center" data-reveal><span class="chapter__no">06</span> — CONTACT</p>
+      <h2 class="contact__title" data-reveal>Let's build something <em>useful.</em></h2>
+      <p class="contact__text" data-reveal>欢迎岗位机会和交流，随时联系我。</p>
+
+      <div class="contact-grid" data-reveal>
+
+        <a class="contact-card glass-on-blue" href="mailto:1547587952@qq.com">
+          <span class="contact-card__label">邮箱</span>
+          <span class="contact-card__value">1547587952@qq.com</span>
+        </a>
+
+        <button class="contact-card glass-on-blue" type="button" data-copy="Tjs17733504013" aria-label="复制微信号 Tjs17733504013">
+          <span class="contact-card__label">微信 <span class="contact-card__hint" data-copy-label>点击复制</span></span>
+          <span class="contact-card__value">Tjs17733504013</span>
+        </button>
+
+        <a class="contact-card glass-on-blue" href="https://github.com/Tjs147852369" target="_blank" rel="noopener">
+          <span class="contact-card__label">GitHub</span>
+          <span class="contact-card__value">github.com/Tjs147852369</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="footer__text">© 2026 田津硕</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
